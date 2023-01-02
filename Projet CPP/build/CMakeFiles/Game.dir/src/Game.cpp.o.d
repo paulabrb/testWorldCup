@@ -362,4 +362,4 @@ CMakeFiles/Game.dir/src/Game.cpp.o: \
   /usr/local/include/SDL2/SDL_timer.h \
   /usr/local/include/SDL2/SDL_version.h \
   /usr/local/include/SDL2/SDL_locale.h \
-  /usr/local/include/SDL2/SDL_misc.h
+  /usr/local/include/SDL2/SDL_misc.h /usr/local/include/SDL2/SDL_image.h

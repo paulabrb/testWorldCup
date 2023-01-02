@@ -1,5 +1,7 @@
 #include "Game.hpp"
 
+SDL_Texture* playerTexture;
+
 Game::Game()
 {}
 
@@ -35,6 +37,13 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 	std::cout << "Renderer Created" << std::endl;
 
 	_running = true;
+	_count = 0;
+
+	//Test, display an image
+	SDL_Surface* tempSurface = SDL_LoadBMP("../assets/player.bmp");
+	std::cout << SDL_GetError() << std::endl;
+	playerTexture = SDL_CreateTextureFromSurface(renderer, tempSurface);
+	SDL_FreeSurface(tempSurface);
 	}
 }
 
@@ -54,13 +63,14 @@ void Game::event()
 
 void Game::update()
 {
-	
+	_count++;
+	//std::cout << _count << std::endl;
 }
 
 void Game::render()
 {
 	SDL_RenderClear(renderer);
-	//add stuff to render
+	SDL_RenderCopy(renderer, playerTexture, NULL, NULL);
 	SDL_RenderPresent(renderer);
 }
 

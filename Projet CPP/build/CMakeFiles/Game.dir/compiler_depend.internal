@@ -368,6 +368,7 @@ CMakeFiles/Game.dir/apps/main.cpp.o
  /usr/local/include/SDL2/SDL_version.h
  /usr/local/include/SDL2/SDL_locale.h
  /usr/local/include/SDL2/SDL_misc.h
+ /usr/local/include/SDL2/SDL_image.h
 
 CMakeFiles/Game.dir/src/Game.cpp.o
  /Users/noahbensoussen/Desktop/Projet CPP/src/Game.cpp
@@ -736,4 +737,5 @@ CMakeFiles/Game.dir/src/Game.cpp.o
  /usr/local/include/SDL2/SDL_version.h
  /usr/local/include/SDL2/SDL_locale.h
  /usr/local/include/SDL2/SDL_misc.h
+ /usr/local/include/SDL2/SDL_image.h
 

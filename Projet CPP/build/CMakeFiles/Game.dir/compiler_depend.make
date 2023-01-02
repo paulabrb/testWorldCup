@@ -366,7 +366,8 @@ CMakeFiles/Game.dir/apps/main.cpp.o: /Users/noahbensoussen/Desktop/Projet\ CPP/a
   /usr/local/include/SDL2/SDL_timer.h \
   /usr/local/include/SDL2/SDL_version.h \
   /usr/local/include/SDL2/SDL_locale.h \
-  /usr/local/include/SDL2/SDL_misc.h
+  /usr/local/include/SDL2/SDL_misc.h \
+  /usr/local/include/SDL2/SDL_image.h
 
 CMakeFiles/Game.dir/src/Game.cpp.o: /Users/noahbensoussen/Desktop/Projet\ CPP/src/Game.cpp \
   /Users/noahbensoussen/Desktop/Projet\ CPP/include/Game.hpp \
@@ -733,7 +734,8 @@ CMakeFiles/Game.dir/src/Game.cpp.o: /Users/noahbensoussen/Desktop/Projet\ CPP/sr
   /usr/local/include/SDL2/SDL_timer.h \
   /usr/local/include/SDL2/SDL_version.h \
   /usr/local/include/SDL2/SDL_locale.h \
-  /usr/local/include/SDL2/SDL_misc.h
+  /usr/local/include/SDL2/SDL_misc.h \
+  /usr/local/include/SDL2/SDL_image.h
 
 
 /Users/noahbensoussen/Desktop/Projet\ CPP/src/Game.cpp:
@@ -1317,6 +1319,8 @@ CMakeFiles/Game.dir/src/Game.cpp.o: /Users/noahbensoussen/Desktop/Projet\ CPP/sr
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigaltstack.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h:
+
+/usr/local/include/SDL2/SDL_image.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h:
 

@@ -4,15 +4,21 @@
 
 int main(int argc, char const *argv[])
 {
-	//game boucle
-	// while()
-	// {
-	// 	//user input
-	// 	//updating
-	// 	//render
-	// }
-	SDL_Init(SDL_INIT_EVERYTHING);
-	printf("ALL GOOD\n");
+	Game *game = nullptr;
+
+	game = new Game();
+
+	game->init("WorldCup", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, false);
+
+	while(game->running()) {
+
+		game->event();
+		game->update();
+		game->render();
+
+	}
+
+	game->clean();
 
 	return 0;
 }

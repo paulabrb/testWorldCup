@@ -1,0 +1,4 @@
+g++ -Wall -o name name.cpp -lSDL2 -lSDL2_image
+
+Lancer cmake .. depuis le répertoire build
+puis lancer un make

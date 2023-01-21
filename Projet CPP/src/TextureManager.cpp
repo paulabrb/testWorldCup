@@ -1,6 +1,6 @@
 #include "../include/TextureManager.hpp"
 
-SDL_Texture* TextureManager:: IMG_LoadTexture(const char* texture,SDl_Renderer* ren)
+SDL_Texture* TextureManager:: IMG_LoadTexture(const char* texture,SDL_Renderer* ren)
 {
     //Create a surface
     SDL_Surface* tempSurface=IMG_Load(texture);

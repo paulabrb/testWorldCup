@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "game",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -41,15 +39,8 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Game-027a8e47e6fc5b829e1e.json",
+					"jsonFile" : "target-Game-e0f272cc5d904bd29fc6.json",
 					"name" : "Game",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "TextureManager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TextureManager-bbfb3ed162809cda9db4.json",
-					"name" : "TextureManager",
 					"projectIndex" : 0
 				}
 			]
@@ -58,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build",
-		"source" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP"
+		"build" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP/build",
+		"source" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP"
 	},
 	"version" : 
 	{

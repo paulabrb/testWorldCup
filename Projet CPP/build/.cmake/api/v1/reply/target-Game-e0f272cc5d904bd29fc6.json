@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -81,7 +81,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/include"
+					"path" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP/include"
 				},
 				{
 					"backtrace" : 5,
@@ -97,7 +97,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -141,7 +142,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -157,6 +159,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/Game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/TextureManager.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

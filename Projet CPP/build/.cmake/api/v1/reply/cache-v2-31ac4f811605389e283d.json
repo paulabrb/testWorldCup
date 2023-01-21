@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build"
+			"value" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -495,7 +495,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP"
+			"value" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build"
+			"value" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP/build"
 		},
 		{
 			"name" : "game_IS_TOP_LEVEL",
@@ -1167,7 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP"
+			"value" : "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP"
 		}
 	],
 	"kind" : "cache",

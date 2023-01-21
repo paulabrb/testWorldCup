@@ -1,4 +1,4 @@
-# Install script for directory: /Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP
+# Install script for directory: /Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/paulita/Documents/Main4/Info/LO/testWorldCup/testbase/WorldCup/Projet CPP/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

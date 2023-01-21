@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/noahbensoussen/Desktop/Projet CPP"
+CMAKE_SOURCE_DIR = "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/noahbensoussen/Desktop/Projet CPP/build"
+CMAKE_BINARY_DIR = "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = "/Users/noahbensoussen/Desktop/Projet CPP/build"
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.25.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.25.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" "/Users/noahbensoussen/Desktop/Projet CPP/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,12 +129,26 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
+#=============================================================================
+# Target rules for targets named TextureManager
+
+# Build rule for target.
+TextureManager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TextureManager
+.PHONY : TextureManager
+
+# fast build rule for target.
+TextureManager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/build
+.PHONY : TextureManager/fast
+
 apps/main.o: apps/main.cpp.o
 .PHONY : apps/main.o
 
 # target to build an object file
 apps/main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/apps/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/apps/main.cpp.o
 .PHONY : apps/main.cpp.o
 
 apps/main.i: apps/main.cpp.i
@@ -143,6 +157,7 @@ apps/main.i: apps/main.cpp.i
 # target to preprocess a source file
 apps/main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/apps/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/apps/main.cpp.i
 .PHONY : apps/main.cpp.i
 
 apps/main.s: apps/main.cpp.s
@@ -151,6 +166,7 @@ apps/main.s: apps/main.cpp.s
 # target to generate assembly for a file
 apps/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/apps/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/apps/main.cpp.s
 .PHONY : apps/main.cpp.s
 
 src/Game.o: src/Game.cpp.o
@@ -177,6 +193,30 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/TextureManager.o: src/TextureManager.cpp.o
+.PHONY : src/TextureManager.o
+
+# target to build an object file
+src/TextureManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/src/TextureManager.cpp.o
+.PHONY : src/TextureManager.cpp.o
+
+src/TextureManager.i: src/TextureManager.cpp.i
+.PHONY : src/TextureManager.i
+
+# target to preprocess a source file
+src/TextureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/src/TextureManager.cpp.i
+.PHONY : src/TextureManager.cpp.i
+
+src/TextureManager.s: src/TextureManager.cpp.s
+.PHONY : src/TextureManager.s
+
+# target to generate assembly for a file
+src/TextureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/src/TextureManager.cpp.s
+.PHONY : src/TextureManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +226,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
+	@echo "... TextureManager"
 	@echo "... apps/main.o"
 	@echo "... apps/main.i"
 	@echo "... apps/main.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/TextureManager.o"
+	@echo "... src/TextureManager.i"
+	@echo "... src/TextureManager.s"
 .PHONY : help
 
 

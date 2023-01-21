@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/apps/main.cpp" "CMakeFiles/Game.dir/apps/main.cpp.o" "gcc" "CMakeFiles/Game.dir/apps/main.cpp.o.d"
-  "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/src/Game.cpp" "CMakeFiles/Game.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Game.dir/src/Game.cpp.o.d"
+  "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/apps/main.cpp" "CMakeFiles/TextureManager.dir/apps/main.cpp.o" "gcc" "CMakeFiles/TextureManager.dir/apps/main.cpp.o.d"
+  "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/src/TextureManager.cpp" "CMakeFiles/TextureManager.dir/src/TextureManager.cpp.o" "gcc" "CMakeFiles/TextureManager.dir/src/TextureManager.cpp.o.d"
   )
 
 # Targets to which this target links.

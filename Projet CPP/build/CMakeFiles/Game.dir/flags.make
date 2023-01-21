@@ -4,7 +4,9 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/noahbensoussen/Desktop/Projet CPP/include" -I/usr/local/include -isystem /usr/local/include/SDL2
+CXX_INCLUDES = -I"/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/include" -I/opt/homebrew/include -isystem /opt/homebrew/include/SDL2
 
-CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wall -lSDL2 -lSDL2_image
+CXX_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wall -lSDL2 -lSDL2_image
+
+CXX_FLAGS =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wall -lSDL2 -lSDL2_image
 

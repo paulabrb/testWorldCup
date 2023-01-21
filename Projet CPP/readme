@@ -1,7 +1,13 @@
 g++ -Wall -o name name.cpp -lSDL2 -lSDL2_image
+-----------------------------------------------
+J'ai add une ligne dans CMakeLists.txt
+TextureManager.dir generated after cmake ..
+-----------------------------------------------
 
 Lancer cmake .. depuis le répertoire build
 puis lancer un make
+------------------------------------------------
+Clang error
 
 
 DANS LE FICHIER /apps/main.cpp

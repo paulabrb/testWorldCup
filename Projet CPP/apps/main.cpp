@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "Game.hpp"
+#include "TextureManager.hpp"
 
 int main(int argc, char const *argv[])
 {

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/noahbensoussen/Desktop/Projet CPP"
+CMAKE_SOURCE_DIR = "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/noahbensoussen/Desktop/Projet CPP/build"
+CMAKE_BINARY_DIR = "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Game.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/Game.dir/progress.make
 include CMakeFiles/Game.dir/flags.make
 
 CMakeFiles/Game.dir/apps/main.cpp.o: CMakeFiles/Game.dir/flags.make
-CMakeFiles/Game.dir/apps/main.cpp.o: /Users/noahbensoussen/Desktop/Projet\ CPP/apps/main.cpp
+CMakeFiles/Game.dir/apps/main.cpp.o: /Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet\ CPP/apps/main.cpp
 CMakeFiles/Game.dir/apps/main.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/apps/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/apps/main.cpp.o -MF CMakeFiles/Game.dir/apps/main.cpp.o.d -o CMakeFiles/Game.dir/apps/main.cpp.o -c "/Users/noahbensoussen/Desktop/Projet CPP/apps/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/apps/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/apps/main.cpp.o -MF CMakeFiles/Game.dir/apps/main.cpp.o.d -o CMakeFiles/Game.dir/apps/main.cpp.o -c "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/apps/main.cpp"
 
 CMakeFiles/Game.dir/apps/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/apps/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/noahbensoussen/Desktop/Projet CPP/apps/main.cpp" > CMakeFiles/Game.dir/apps/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/apps/main.cpp" > CMakeFiles/Game.dir/apps/main.cpp.i
 
 CMakeFiles/Game.dir/apps/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/apps/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/noahbensoussen/Desktop/Projet CPP/apps/main.cpp" -o CMakeFiles/Game.dir/apps/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/apps/main.cpp" -o CMakeFiles/Game.dir/apps/main.cpp.s
 
 CMakeFiles/Game.dir/src/Game.cpp.o: CMakeFiles/Game.dir/flags.make
-CMakeFiles/Game.dir/src/Game.cpp.o: /Users/noahbensoussen/Desktop/Projet\ CPP/src/Game.cpp
+CMakeFiles/Game.dir/src/Game.cpp.o: /Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet\ CPP/src/Game.cpp
 CMakeFiles/Game.dir/src/Game.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/src/Game.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/Game.cpp.o -MF CMakeFiles/Game.dir/src/Game.cpp.o.d -o CMakeFiles/Game.dir/src/Game.cpp.o -c "/Users/noahbensoussen/Desktop/Projet CPP/src/Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/src/Game.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/src/Game.cpp.o -MF CMakeFiles/Game.dir/src/Game.cpp.o.d -o CMakeFiles/Game.dir/src/Game.cpp.o -c "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/src/Game.cpp"
 
 CMakeFiles/Game.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/src/Game.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/noahbensoussen/Desktop/Projet CPP/src/Game.cpp" > CMakeFiles/Game.dir/src/Game.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/src/Game.cpp" > CMakeFiles/Game.dir/src/Game.cpp.i
 
 CMakeFiles/Game.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/src/Game.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/noahbensoussen/Desktop/Projet CPP/src/Game.cpp" -o CMakeFiles/Game.dir/src/Game.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/src/Game.cpp" -o CMakeFiles/Game.dir/src/Game.cpp.s
 
 # Object files for target Game
 Game_OBJECTS = \
@@ -108,9 +108,9 @@ Game_EXTERNAL_OBJECTS =
 Game: CMakeFiles/Game.dir/apps/main.cpp.o
 Game: CMakeFiles/Game.dir/src/Game.cpp.o
 Game: CMakeFiles/Game.dir/build.make
-Game: /usr/local/lib/libSDL2.dylib
+Game: /opt/homebrew/lib/libSDL2.dylib
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/Game.dir/clean:
 .PHONY : CMakeFiles/Game.dir/clean
 
 CMakeFiles/Game.dir/depend:
-	cd "/Users/noahbensoussen/Desktop/Projet CPP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/noahbensoussen/Desktop/Projet CPP" "/Users/noahbensoussen/Desktop/Projet CPP" "/Users/noahbensoussen/Desktop/Projet CPP/build" "/Users/noahbensoussen/Desktop/Projet CPP/build" "/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles/Game.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP" "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP" "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build" "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build" "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles/Game.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Game.dir/depend
 

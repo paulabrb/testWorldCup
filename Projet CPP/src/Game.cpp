@@ -1,4 +1,5 @@
 #include "Game.hpp"
+#include "TextureManager.hpp"
 
 SDL_Texture* playerTexture;
 SDL_Rect scrR, destR;
@@ -43,10 +44,15 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 		_count = 0;
 
 		//Test, display an image
-		SDL_Surface* tempSurface = SDL_LoadBMP("../assets/player.bmp");
-		std::cout << SDL_GetError() << std::endl;
-		playerTexture = SDL_CreateTextureFromSurface(renderer, tempSurface);
-		SDL_FreeSurface(tempSurface);
+
+
+		// SDL_Surface* tempSurface = SDL_LoadBMP("../assets/player.bmp");
+		// std::cout << SDL_GetError() << std::endl;
+		// playerTexture = SDL_CreateTextureFromSurface(renderer, tempSurface);
+		// SDL_FreeSurface(tempSurface);
+
+		playerTexture = TextureManager::IMG_LoadTexture("../assets/player.bmp",renderer);
+	
 	}
 }
 
@@ -79,6 +85,8 @@ void Game::update()
 void Game::render()
 {
 	SDL_RenderClear(renderer);
+
+	//Add textures to be rendered
 	SDL_RenderCopy(renderer, playerTexture, NULL, &destR);
 	SDL_RenderPresent(renderer);
 }

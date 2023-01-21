@@ -45,25 +45,26 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/noahbensoussen/Desktop/Projet CPP"
+CMAKE_SOURCE_DIR = "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/noahbensoussen/Desktop/Projet CPP/build"
+CMAKE_BINARY_DIR = "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/Game.dir/all
+all: CMakeFiles/TextureManager.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Game.dir/clean
+clean: CMakeFiles/TextureManager.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,14 +83,14 @@ clean: CMakeFiles/Game.dir/clean
 CMakeFiles/Game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" --progress-num=1,2,3 "Built target Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" --progress-num=1,2,3 "Built target Game"
 .PHONY : CMakeFiles/Game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Game.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/noahbensoussen/Desktop/Projet CPP/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" 0
 .PHONY : CMakeFiles/Game.dir/rule
 
 # Convenience name for target.
@@ -99,6 +101,32 @@ Game: CMakeFiles/Game.dir/rule
 CMakeFiles/Game.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/clean
 .PHONY : CMakeFiles/Game.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TextureManager.dir
+
+# All Build rule for target.
+CMakeFiles/TextureManager.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" --progress-num=4,5,6 "Built target TextureManager"
+.PHONY : CMakeFiles/TextureManager.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TextureManager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TextureManager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/paulita/Documents/Main4/Info/LO/testbase/WorldCup/Projet CPP/build/CMakeFiles" 0
+.PHONY : CMakeFiles/TextureManager.dir/rule
+
+# Convenience name for target.
+TextureManager: CMakeFiles/TextureManager.dir/rule
+.PHONY : TextureManager
+
+# clean rule for target.
+CMakeFiles/TextureManager.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextureManager.dir/build.make CMakeFiles/TextureManager.dir/clean
+.PHONY : CMakeFiles/TextureManager.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

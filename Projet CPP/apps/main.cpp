@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Game.hpp"
-#include "TextureManager.hpp"
+#include "../src/Game.cpp"
+// #include "../src/TextureManager.cpp"
 
 int main(int argc, char const *argv[])
 {

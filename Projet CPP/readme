@@ -1,6 +1,7 @@
 g++ -Wall -o name name.cpp -lSDL2 -lSDL2_image
 -----------------------------------------------
 J'ai modifié une ligne dans le CmakeLists.txt
+J'ai add sdl2 image dans CmakeLists.txt
 -----------------------------------------------
 
 Lancer cmake .. depuis le répertoire build

@@ -1176,6 +1176,24 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/Applications/CMake.app/Contents/share/cmake-3.25/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/SDL2_image/sdl2_image-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.25/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
